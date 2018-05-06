@@ -1,0 +1,378 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 80%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+/*header start*/
+
+header {
+    min-height: 100px;
+    background-color: #3B5998;
+    font-family: sans-serif;
+}
+
+.header_logo {
+   width: 20%;
+    float: left;
+    padding: 17px 3px;
+}
+
+
+
+.header_form {
+    float: right;
+    width: 66%;
+    overflow: hidden;
+    margin-top: 17px;
+}
+
+.loginuname {
+    float: left;
+    float: left;
+    font-size: 13px;
+    color: #FFFFFF;
+    margin-left: 212px;
+}
+
+.loginemail {
+    width: 175px;
+    height: 22px;
+    margin-top: 7px;
+    border: 1px solid black;
+}
+
+.loginpass {
+    float: left;
+    font-size: 13px;
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+
+.loginpass a {
+    color: #9CB4D8;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.forgetpass {
+    margin-top: 9px;
+}
+
+.loginpass a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.lgpass {
+    width: 175px;
+    height: 22px;
+    ;
+    margin-top: 7px;
+    border: 1px solid black;
+}
+
+
+
+.loginbtn {
+    padding: 4px 7px;
+    margin-top: 22px;
+    margin-left: 20px;
+    background-color: #4267b2;
+    border-radius: 2px;
+    border: 1px solid #4b4f56;
+    
+    color: white;
+}
+
+.loginbtn:hover {
+    background-color: #3B5998;
+}
+
+/*header end*/
+
+/*Main content start*/
+
+section {
+    background-color: #E9EBEE;
+    min-height: 600px;
+}
+
+.left_content {
+    width: 52%;
+    min-height: 500px;
+    float: left;
+
+}
+
+.left_content_text {
+   width: 80%;
+}
+
+.left_content h2 {
+    color: #0E385F;
+    font-size: 25px;
+    margin-top: 45px;
+    line-height: 35px;
+    font-family: sans-serif;
+
+}
+.left_content_image{
+    overflow: hidden;
+}
+
+.left_content_image img {
+    width: 90%;
+    margin-top: 30px;
+    float: left;
+}
+
+.right_content {
+    min-height: 600px;
+    float: right;
+    width: 48%;
+    font-family: sans-serif;
+    color: #333333;
+}
+
+.right_content h1 {
+    font-size: 35px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+.right_content h2 {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.fname {
+    width: 40%;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 25px;
+    border-radius: 5px;
+    border: 1px solid #BDC7D8;
+   
+}
+
+.sname {
+    width: 40%;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 25px;
+    border-radius: 4px;
+    border: 1px solid #BDC7D8;
+    
+
+}
+
+.cont {
+    border-radius: 5px;
+    border: 1px solid #BDC7D8;
+    height: 40px;
+    margin-left: 10px;
+    width: 84%;
+    margin-top: 15px;
+}
+
+.npass {
+    border-radius: 5px;
+    border: 1px solid #BDC7D8;
+    height: 40px;
+    margin-left: 10px;
+    width: 84%;
+    margin-top: 15px;
+}
+
+.birthday {
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.birthdate {
+    float: left;
+    width: 50%;
+    margin-top: -13px;
+    margin-bottom: 13px;
+}
+
+.birth_text {
+    float: right;
+    width: 50%;
+    font-size: 12px;
+    text-decoration: none;
+    height: 50px;
+    
+}
+
+.birth_text a {
+    text-decoration: none;
+    color: #3658B3;
+
+}
+
+.birth_text a:hover {
+    text-decoration: underline;
+    
+}
+
+.date {
+    margin-left: 10px;
+    width: 25%;
+    height: 30px;
+    border: 1px solid #BDC7D8;
+    padding-left: 5px;
+}
+
+
+input[type=radio] {
+    margin-left: 10px;
+    width: 4%;
+}
+
+.terms_condition {
+    width: 75%;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-left: 10px;
+    color: #77778A;
+}
+
+.terms_condition a {
+    text-decoration: none;
+    color: #3658B3;
+}
+
+.terms_condition a:hover {
+    text-decoration: underline;
+}
+
+
+
+.signup_btn {
+    margin-left: 10px;
+    padding: 7px 70px;
+    background-color: #63994E;
+    border: 1px solid #4b4f56;
+    border-radius: 7px;
+    color: white;
+    font-size: 22px;
+    font-family: sans-serif;
+    margin-top: 25px;
+}
+
+
+
+
+.content_form h3 {
+    font-size: 12px;
+    margin-top: 35px;
+    margin-left: 10px;
+    color: #666666;
+}
+
+.content_form h3 a {
+    text-decoration: none;
+    color: #3658B3;
+}
+
+.content_form h3 a:hover {
+    text-decoration: underline;
+    
+}
+
+/*Main content end*/
+
+/*footer start*/
+
+footer {
+    min-height: 200px;
+    background-color: #FFFFFF;
+}
+
+.footer_top {
+    min-height: 25px;
+    width: 75%;
+    font-size: 15px;
+    margin-top: 35px;
+    margin-left: 8px;
+
+}
+
+.footer_top a {
+    text-decoration: none;
+    color: #3658B3;
+}
+
+.footer_top a:hover {
+    text-decoration: underline;
+    
+}
+
+.footer_top button {
+    padding: 2px 10px;
+    color: gray;
+
+}
+
+.footer_bottom {
+    
+    font-size: 15px;
+    margin-top: 5px;
+    border-top: 1px solid #BDC7D8;
+    line-height: 20px;
+    word-spacing: 5px;
+    padding: 10px 10px;
+}
+
+.footer_bottom a {
+    text-decoration: none;
+    color: #3658B3;
+
+}
+
+.footer_bottom a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    margin-top: 12px;
+    font-size: 12px;
+    color: #737377;
+    margin-left: 8px;
+}
+
+::-webkit-input-placeholder {
+    color: darkgrey;
+    font-size: 17px;
+    padding: 10px 10px;
+    font-family: sans-serif;
+}
+
+::-moz-placeholder {
+    color: darkgrey;
+    font-size: 17px;
+    padding: 10px 10px;
+}
+
+:-ms-input-placeholder {
+    color: darkgrey;
+    font-size: 17px;
+    padding: 10px 10px;
+}
+
+::placeholder {
+    color: darkgrey;
+    font-size: 17px;
+    padding: 10px 10px;
+}
+
+/*footer end*/
